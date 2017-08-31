@@ -1,0 +1,66 @@
+
+h1{
+	margin:10px;
+	font-family:Algerian;
+	font-size: 70px;
+	border-bottom:2px solid;
+
+}
+
+
+body {
+    
+     background:linear-gradient(to left,#83a4d4, #b6fbff);
+     
+}
+
+
+.link ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.link li {
+    float: left;
+    border-right: 1px solid #BBB;
+}
+
+.link li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.link li a:hover {
+    background-color: #111;
+
+}
+
+
+.topic ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: #333;
+}
+
+
+.topic li a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+.topic li a:hover {
+    background-color: #555;
+    color: white;
+}
