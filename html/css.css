@@ -1,21 +1,21 @@
 
 h1{
+    -webkit-animation:random 1s infinite;
 	margin:10px;
-	font-family:Algerian;
 	font-size: 70px;
 	border-bottom:2px solid;
-
+    font-family:sans;
 }
 
 
 body {
-    
      background:linear-gradient(to left,#83a4d4, #b6fbff);
-     
+     -webkit-animation: random 1s infinite;
 }
 
-
 .link ul {
+    border:2px solid;
+    border-radius: 20px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -39,11 +39,13 @@ body {
 /* Change the link color to #111 (black) on hover */
 .link li a:hover {
     background-color: #111;
-
 }
 
 
 .topic ul {
+    float:right;
+    border:2px solid;
+    border-radius:20px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -63,4 +65,18 @@ body {
 .topic li a:hover {
     background-color: #555;
     color: white;
+    border-radius:20px;
+}
+
+
+.conteudo img{
+    float:left;
+    border-radius: 20px;
+    width:30%; 
+    height:30%;
+}
+
+.conteudo h2{
+    float:top;
+
 }
