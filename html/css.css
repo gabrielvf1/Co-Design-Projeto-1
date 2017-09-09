@@ -1,16 +1,19 @@
+.top{
+  background-color: #5181cc;
+  border-radius: 1em;
+}
 
 h1{
-    -webkit-animation:random 1s infinite;
-	margin:10px;
+	margin: 10px;
 	font-size: 70px;
-	border-bottom:2px solid;
-    font-family:sans;
+  font-family: sans;
 }
 
 
 body {
      background:linear-gradient(to left,#83a4d4, #b6fbff);
      -webkit-animation: random 1s infinite;
+     /*background: url(http://economia.estadao.com.br/blogs/radar-do-emprego/wp-content/uploads/sites/55/2017/04/30.4-empregos-f%C3%A1bio-de-miranda-coord-enga-computa%C3%A7%C3%A3o-INSPER-cr%C3%A9dito-Felipe-Cohren.jpg)*/
 }
 
 .link ul {
@@ -41,6 +44,13 @@ body {
     background-color: #111;
 }
 
+.subtit{
+    margin-top: 2.5em;
+}
+
+.parag{
+
+}
 
 .topic ul {
     float:right;
@@ -72,11 +82,44 @@ body {
 .conteudo img{
     float:left;
     border-radius: 20px;
-    width:30%; 
+    width:30%;
     height:30%;
 }
 
 .conteudo h2{
     float:top;
 
+}
+
+.imagens{
+  margin-top:100px;
+  padding: 30px;
+}
+
+.imagem{
+  height: 50%;
+  width: 20%;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right:20px;
+  border-style: dotted;
+  padding: 0.3%;
+  text-align: center;
+}
+
+.textimg{
+  display: inline;
+  text-align: center;
+  width: 50%;
+}
+
+.imagem img{
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+
+*{
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
