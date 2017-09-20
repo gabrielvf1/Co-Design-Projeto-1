@@ -63,9 +63,8 @@ body {
 }
 
 .topic{
-  display: inline-block;
-  float: right;
-  margin: 2%;
+  margin-left: 10em;
+
 }
 
 .topic ul {
@@ -77,6 +76,7 @@ body {
     padding: 0;
     width: 150px;
     background-color: #333;
+    box-shadow: 4px 4px 2px 2px grey;
 }
 
 
@@ -95,10 +95,37 @@ body {
 }
 
 .ficha{
+  margin-right: 2em;
+  margin-left: 2em;
+  border-bottom: 1px grey  solid;
+
+}
+
+.ficha h1 {
+  margin-top: 30px;
+  font-size: 3em;
+}
+
+.ficha_e_lista{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2em;
   display: inline-block;
   border-style: solid;
   width: 50%;
   height: 300px;
+
+}
+.pre-lista{
+  padding:1em;
+}
+
+.lista-ficha1 {
+  margin:1em;
+}
+.lista-ficha2 {
+  margin: 1em;
+  margin-top: 2em;
 }
 
 .conteudo img{
@@ -108,14 +135,18 @@ body {
     height:30%;
 }
 
+.imagens-ficha {
+  margin-top: 3em;
+  display: flex;
+  flex-direction: row:
+}
 .conteudo h2{
     float:top;
 
 }
 
 .imagens{
-
-  padding: 60px;
+  padding: 2em;
   display: inline-block;
 }
 
@@ -149,8 +180,16 @@ body {
   text-align: center;
 }
 
-.lista_ficha li{
-  display: inline;
+.pre-lista {
+  display: flex;
+  flex-direction: column;
+}
+
+.lista-ficha {
+  display: flex;
+  flex-direction: row:
+  justify-content: space-between;
+  margin-left: 2em;
 }
 
 .imagem:hover{
