@@ -3,6 +3,16 @@
   padding: 2%;
 }
 
+.home-icone{
+  float:right;
+}
+
+.top img{
+  float:right;
+  width:  20%;
+  height: 20%;
+}
+
 h1{
 	margin: 10px;
 	font-size: 70px;
@@ -68,7 +78,8 @@ body {
 }
 
 .topic ul {
-    float:right;
+    position:fixed;
+    left:1350px;
     border:2px solid;
     border-radius:20px;
     list-style-type: none;
@@ -124,8 +135,8 @@ body {
   margin:1em;
 }
 .lista-ficha2 {
-  margin: 1em;
-  margin-top: 2em;
+  margin: 5%;
+  margin-top: 10%;
 }
 
 .conteudo img{
@@ -140,10 +151,14 @@ body {
   display: flex;
   flex-direction: row:
 }
-.conteudo h2{
-    float:top;
 
+
+
+.conteudo{
+  width: 80%;
+  margin-left:1%;
 }
+
 
 .imagens{
   padding: 2em;
@@ -215,14 +230,4 @@ body {
   margin: 10px;
   position: relative;
   overflow: hidden;
-}
-
-#myCarousel{
-  width:100%;
-  height: 0%;
-  margin:0 auto;
-}
-
-.carousel-inner .item img{
-  margin:0 auto;
 }
