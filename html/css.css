@@ -223,8 +223,8 @@ body {
 
 .imagem_port{
   display: inline-block;
-  border-radius: 20%;
-  border-style: dashed;
+  border-radius: 100%;
+  border-style: solid;
   border-width: thick;
   border-color: #374a68;
   margin: 10px;
