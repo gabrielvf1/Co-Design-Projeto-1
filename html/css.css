@@ -74,7 +74,7 @@ body {
 
 .topic{
   margin-left: 10em;
-
+  float: right;
 }
 
 .topic ul {
@@ -149,10 +149,20 @@ body {
 .imagens-ficha {
   margin-top: 3em;
   display: flex;
-  flex-direction: row:
+  flex-direction: row;
+  float: left;
 }
 
-
+.imagem_proj{
+  display: inline-block;
+  border-radius: 10%;
+  border-style: dashed;
+  border-width: thick;
+  border-color: #374a68;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+}
 
 .conteudo{
   width: 80%;
