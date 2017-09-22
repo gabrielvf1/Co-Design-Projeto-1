@@ -241,3 +241,13 @@ body {
   position: relative;
   overflow: hidden;
 }
+
+.relative1 {
+  position: relative;
+}
+.relative2 {
+  position: relative;
+  top: 10px;
+  left: 20px;
+  width: 1000px;
+}
