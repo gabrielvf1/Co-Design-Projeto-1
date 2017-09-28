@@ -135,7 +135,7 @@ body {
 }
 .lista-ficha2 {
   margin: 5%;
-  margin-top: 5%;
+  margin-top: -3%;
 }
 
 .conteudo img{
@@ -249,7 +249,10 @@ body {
   position: relative;
   top: 10px;
   left: 20px;
-  width: 1000px;
+  font-size: 20px;
+  font-family: sans-serif;
+  width: 1000px; 
+  margin-top: 20px;
 =======
 .parag{
   display: block;
