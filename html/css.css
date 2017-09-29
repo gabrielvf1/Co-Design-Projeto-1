@@ -67,6 +67,10 @@ body {
     background-color: #111;
 }
 
+.relative2 h3 {
+  font-size: 10px;
+}
+
 .subtit{
     margin-top: 2.5em;
     border-bottom: 1px solid;
