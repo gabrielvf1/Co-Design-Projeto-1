@@ -1,8 +1,13 @@
 .top{
   background-color: grey;
   padding: 2%;
+  height: 150px;
 }
-
+.top h1{
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: normal;
+}
 .home-icone{
   float:right;
 }
@@ -11,13 +16,6 @@
   float:right;
   width:  20%;
   height: 20%;
-}
-
-h1{
-	margin: 10px;
-	font-size: 70px;
-  font-family: sans-serif;
-  font-weight: normal;
 }
 
 html{
@@ -35,9 +33,6 @@ body {
 .texto{
   margin:2%;
 }
-
-
-
 
 .link ul {
     border:2px solid;
@@ -185,6 +180,24 @@ body {
 
 #lficha{
   font-size: 300px;
+}
+
+.imagem_select{
+  display: inline-block;
+  margin: 20px;
+  border-bottom: 5px solid grey;
+  border-right: 5px solid grey;
+  border-radius: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.imagem_select img{
+  text-align: center;
+  width: 350px;
+  height: 350px;
+  margin: 20px;
+  border-radius: 100%;
 }
 
 .imagem{
