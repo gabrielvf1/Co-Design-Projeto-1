@@ -290,3 +290,17 @@ body {
   position: relative;
   text-align: center;
 }
+
+.imagens_select2{
+  display: inline;
+  margin: 20px;
+  border-bottom: 5px solid grey;
+  border-right: 5px solid grey;
+  border-radius: 20px;
+  position: relative;
+  text-align: center;
+}
+
+hr.style2 {
+  border-top: 3px double #8c8b8b;
+}
